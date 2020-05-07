@@ -1,6 +1,7 @@
 package com.example.concurrent.democoncurrent.lock.aqs.jucdemo.semaphore;
 
-import com.study.lock.aqs.NeteaseAqs;
+
+import com.example.concurrent.democoncurrent.lock.aqs.NeteaseAqs;
 
 // 自定义的信号量实现
 public class NeteaseSemaphore {

@@ -1,6 +1,7 @@
 package com.example.concurrent.democoncurrent.lock.aqs.jucdemo.lock;
 
-import com.study.lock.aqs.NeteaseAqs;
+
+import com.example.concurrent.democoncurrent.lock.aqs.NeteaseAqs;
 
 import java.util.Iterator;
 import java.util.concurrent.LinkedBlockingQueue;

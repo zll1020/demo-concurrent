@@ -1,6 +1,5 @@
 package com.example.concurrent.democoncurrent.lock.aqs.jucdemo.semaphore;
 
-import com.study.lock.aqs.AQSdemo;
 
 import java.util.Random;
 import java.util.concurrent.Semaphore;

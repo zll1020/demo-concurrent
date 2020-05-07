@@ -1,6 +1,7 @@
 package com.example.concurrent.democoncurrent.lock.aqs.jucdemo.readWriteLock;
 
-import com.study.lock.aqs.AQSdemo;
+
+import com.example.concurrent.democoncurrent.lock.aqs.AQSdemo;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Condition;

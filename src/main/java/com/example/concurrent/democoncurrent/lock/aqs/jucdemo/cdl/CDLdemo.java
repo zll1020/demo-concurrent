@@ -1,6 +1,7 @@
 package com.example.concurrent.democoncurrent.lock.aqs.jucdemo.cdl;
 
-import com.study.lock.aqs.AQSdemo;
+
+import com.example.concurrent.democoncurrent.lock.aqs.AQSdemo;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicInteger;
