@@ -14,7 +14,7 @@ public class StopThreadWithSleepEveryLoop {
             public void run() {
                 int num = 0;
                 try {
-                    while ( num <=Integer.MAX_VALUE/2){
+                    while ( num <= Integer.MAX_VALUE/2){
                         if (num % 100 == 0){
                             System.out.println(num + "是100的倍数");
                         }

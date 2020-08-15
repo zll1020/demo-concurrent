@@ -23,7 +23,8 @@ public class QueueDemo {
             while (count == items.length) // 数据写满了
                 notFull.await(); // 写入数据的线程,进入阻塞
             items[putptr] = x;
-            if (++putptr == items.length) putptr = 0;
+            if (++putptr == items.length)
+                putptr = 0;
             ++count;
             notEmpty.signal(); // 唤醒指定的读取线程
         } finally {
@@ -37,7 +38,8 @@ public class QueueDemo {
             while (count == 0)
                 notEmpty.await(); // 线程阻塞在这里,等待被唤醒
             Object x = items[takeptr];
-            if (++takeptr == items.length) takeptr = 0;
+            if (++takeptr == items.length)
+                takeptr = 0;
             --count;
             notFull.signal(); // 通知写入数据的线程,告诉他们取走了数据,继续写入
             return x;

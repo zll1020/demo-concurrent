@@ -8,6 +8,9 @@ import jdk.management.resource.internal.inst.RandomAccessFileRMHooks;
  */
 public class LiveLock {
 
+    /**
+     * 勺子
+     */
     static class Spoon {
 
         private Diner owner;
@@ -32,8 +35,13 @@ public class LiveLock {
     }
 
     static class Diner {
-
+        /**
+         * 人
+         */
         private String name;
+        /**
+         * 饿不饿
+         */
         private boolean isHungry;
 
         public Diner(String name) {

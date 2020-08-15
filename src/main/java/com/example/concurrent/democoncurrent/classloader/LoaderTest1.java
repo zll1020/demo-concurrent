@@ -11,7 +11,7 @@ public class LoaderTest1 {
         URL classUrl = new URL("file:D:\\");
         // 测试双亲委派机制
         // 如果使用此加载器作为父加载器,则下面的热更新会失效,因为双亲委派机制,HelloService实际上是被这个类加载器加载的;
-        //  URLClassLoader parentLoader = new URLClassLoader(new URL[]{classUrl});
+        // URLClassLoader parentLoader = new URLClassLoader(new URL[]{classUrl});
 
         while (true) {
             // 创建一个新的类加载器，它的父加载器为上面的parentLoader

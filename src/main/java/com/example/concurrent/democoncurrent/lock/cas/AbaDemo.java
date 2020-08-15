@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicStampedReference;
 public class AbaDemo {
     // 模拟充值
     // 有3个线程在给用户充值，当用户余额少于20时，就给用户充值20元。
-    // 有100个线程在消费，每次消费10元。用户初始有9元
+    // 有100个线程在消费，每次消费10元。用户初始有19元
     static AtomicInteger money = new AtomicInteger(19);
 
     public static void main(String[] args) throws InterruptedException {
